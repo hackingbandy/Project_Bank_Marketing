@@ -34,3 +34,10 @@ c.execute(
     """
 )
 
+query = c.execute("""select * from bank limit 10""").fetchall()
+for i in query:
+    print(i)    
+
+c.close
+
+
