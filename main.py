@@ -20,7 +20,7 @@ c.execute(
     default_e text, 
     balance int,
     housing text,
-    loan text
+    loan text,
     contact text,
     day int,
     month text,
@@ -33,3 +33,4 @@ c.execute(
     );
     """
 )
+
