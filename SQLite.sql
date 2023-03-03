@@ -1,0 +1,2 @@
+-- SQLite
+SELECT * FROM bank LIMIT 10;
